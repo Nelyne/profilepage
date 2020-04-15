@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    background-color: burlywood;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.pic{
+    border-radius: 100%;
+    padding-top: 5px;
+}
+
+.navbar{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    background: #55d6aa;
+    margin-bottom: 0;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: right;
+}
+
+nav{
+    float: right;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin: 25px ;
+    padding-top: 25px;
+}
+
+nav a{
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav a:hover{
+    color: chocolate;
+}
+#bio{
+    text-align: center;
+}
+hr{
+    border: none;
+    border-top: 2px solid grey;
+    width:80%;
+
+}
+.data{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.aboutme {
+    text-align: center;
+    padding-top: 30px;
+  
+}
+
+.interest{
+    list-style: none;
+    padding: 5px;
+}
+li{
+    margin: 5px;
+}
+
+.contact-section{
+    background: gray;
+    padding: 20px;
+}
+.contact-section h2{
+    text-align: center;
+}
+.border{
+    width: 100px;
+    height: 10px;
+    background: #34495e;
+    margin: 40px auto;
+}
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: none;
+    background: azure;
+    padding: 20px 40px;
+    outline: none;
+   
+}
+textarea.contact-form-text{
+    resize: none;
+    height: 100px;
+}
+.contact-form-btn{
+    float: right;
+    border: 0;
+    background: chocolate;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.contact-form-btn:hover{
+    background: #2980b9
+}
